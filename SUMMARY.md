@@ -12,4 +12,5 @@
   * [Language Properties](ecmascript/language-properties.md)
   * [Single-Threaded thus Asynchronous](ecmascript/single-threaded-thus-asynchronous.md)
   * [The Event Loop](ecmascript/the-event-loop.md)
+  * [Classes](ecmascript/classes.md)
 
