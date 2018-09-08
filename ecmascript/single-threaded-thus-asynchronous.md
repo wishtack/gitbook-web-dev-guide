@@ -61,3 +61,35 @@ function processRequest(request, callback) {
 * No deadlocks.
 * Data doesn't change during the execution of a function.
 
+## Closures
+
+A **closure** is the combination of a function definition and the lexical environment in which the latter is defined.
+
+Closures determine the scope of the variables.
+
+Variables can be read and modified in the closure where they are declared **but also in the functions defined inside**.
+
+```javascript
+function main() {
+​
+    var userName = 'Foo';
+​
+    function setUserName(value) {
+        userName = value;
+    }
+​
+    function getUserName() {
+        return userName;
+    }
+​
+    setUserName('John');
+​
+    console.log(getUserName()); // 'John';
+​
+}
+​
+main();
+```
+
+
+
