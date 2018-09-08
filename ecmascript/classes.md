@@ -111,5 +111,27 @@ request.user;
 ```
 {% endhint %}
 
+## Inheritance
+
+This is inheritance:
+
+```javascript
+export class WishtackProduct extends Product {
+
+    ...
+
+    getProductId() {
+        return 'wishtack-' + this._wishtackId;
+    }
+
+}
+```
+
+{% hint style="warning" %}
+Now, avoid it...
+
+... and prefer composition!
+{% endhint %}
+
 
 
