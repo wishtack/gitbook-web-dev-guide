@@ -17,4 +17,5 @@
   * [this & "binding"](ecmascript/this-and-binding.md)
   * [Arrow Functions](ecmascript/arrow-functions.md)
   * [Template Strings](ecmascript/template-strings.md)
+  * [Compatibility](ecmascript/compatibility.md)
 
