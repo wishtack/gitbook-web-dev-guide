@@ -22,5 +22,6 @@
     * [Destructuring](ecmascript/syntactic-sugar/destructuring.md)
     * [Rest](ecmascript/syntactic-sugar/rest.md)
     * [Object Literal Property Value Shorthand](ecmascript/syntactic-sugar/object-literal-property-value-shorthand.md)
+  * [Named Parameters](ecmascript/named-parameters.md)
   * [Compatibility](ecmascript/compatibility.md)
 
