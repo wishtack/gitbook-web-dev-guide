@@ -17,5 +17,9 @@
   * [this & "binding"](ecmascript/this-and-binding.md)
   * [Arrow Functions](ecmascript/arrow-functions.md)
   * [Template Strings](ecmascript/template-strings.md)
+  * [Syntactic Sugar](ecmascript/syntactic-sugar/README.md)
+    * [Spread](ecmascript/syntactic-sugar/spread.md)
+    * [Destructuring](ecmascript/syntactic-sugar/destructuring.md)
+    * [Rest](ecmascript/syntactic-sugar/rest.md)
   * [Compatibility](ecmascript/compatibility.md)
 
