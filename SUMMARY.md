@@ -1,4 +1,8 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [The Web Dev Guide by Wishtack](README.md)
+* [HTML](html/README.md)
+  * [HTML Tags](html/html-tags.md)
+  * [HTML Attributes](html/html-attributes.md)
+  * [Content Formatting](html/content-formatting.md)
 
