@@ -16,4 +16,5 @@
   * [Hoisting is Dead: var vs. let vs. const](ecmascript/hoisting-is-dead-var-vs.-let-vs.-const.md)
   * [this & "binding"](ecmascript/this-and-binding.md)
   * [Arrow Functions](ecmascript/arrow-functions.md)
+  * [Template Strings](ecmascript/template-strings.md)
 
