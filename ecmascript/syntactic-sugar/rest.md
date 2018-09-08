@@ -27,5 +27,23 @@ add([1, 2, 3]); // 6
 ```
 {% endhint %}
 
+## Object Rest
+
+The same syntax can be used with the [destructuring](destructuring.md#object-destructuring) of an object.
+
+```javascript
+const user = {
+    firstName: 'Foo',
+    lastName: 'BAR',
+    email: 'foo.bar@wishtack.com',
+    phoneNumber: '123'
+};
+
+const { firstName, lastName, ...remainingProperties } = user;
+
+console.log(remainingProperties); // { email: 'foo.bar@wishtack.com', phoneNumber: '123' }
+
+```
+
 
 
