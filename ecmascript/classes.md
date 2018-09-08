@@ -133,5 +133,9 @@ Now, avoid it...
 ... and prefer composition!
 {% endhint %}
 
+## Best practices
 
+{% hint style="success" %}
+Meanwhile we get the class fields in JavaScript, it is recommended to initialize all the attributes in the constructor. Otherwise, it's hard to figure out which attributes are available on a class. In addition to this, the available attributes will depend on the methods that have been called.
+{% endhint %}
 

@@ -13,4 +13,7 @@
   * [Single-Threaded thus Asynchronous](ecmascript/single-threaded-thus-asynchronous.md)
   * [The Event Loop](ecmascript/the-event-loop.md)
   * [Classes](ecmascript/classes.md)
+  * [Hoisting is Dead: var vs. let vs. const](ecmascript/hoisting-is-dead-var-vs.-let-vs.-const.md)
+  * [this & "binding"](ecmascript/this-and-binding.md)
+  * [Arrow Functions](ecmascript/arrow-functions.md)
 
