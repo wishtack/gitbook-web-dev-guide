@@ -14,6 +14,8 @@ These event types can be of any kind:
 * Network status,
 * ...
 
+## Registering Event Listeners
+
 These events can be intercepted by adding an **event listener** to the corresponding event type.
 
 An event listener is a JavaScript function that **will be called whenever the event is triggered**.
@@ -43,4 +45,24 @@ document.addEventListener('keydown', event => {
     }
 });
 ```
+
+### Watching geolocation
+
+```javascript
+navigator.geolocation.watchPosition(position => {
+    console.log(`
+    Accuracy: ${position.coords.accuracy},
+    Latitude: ${position.coords.latitude},
+    Longitude: ${position.coords.longitude}
+    `);
+});
+```
+
+{% hint style="info" %}
+Some functions like `watchPosition` will prompt the user for his consent before allowing access to geolocation.
+{% endhint %}
+
+## Removing Event Listeners
+
+TODO
 
