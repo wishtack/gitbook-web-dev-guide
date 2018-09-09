@@ -1,6 +1,6 @@
 # Element Selection
 
-#### Selecting an element by id
+### Selecting an element by id
 
 ```javascript
 document.getElementById('login');
@@ -12,7 +12,7 @@ This code will return the first element having the given id.
 <input id="login">
 ```
 
-#### Select using CSS class
+### Select using CSS class
 
 ```javascript
 document.getElementsByClassName('blog-post');
@@ -24,7 +24,7 @@ This code will return the first element having the `blog-post-content` CSS class
 <section class="blog-post-content"></section>
 ```
 
-#### Select by HTML tag
+### Select by HTML tag
 
 ```javascript
 document.getElementsByTagName('header')
@@ -36,7 +36,7 @@ This code will return the first element having the `header` HTML tag.
 <header>This is the header.</header>
 ```
 
-#### Select using query selector
+### Select using query selector
 
 ```javascript
 document.querySelector('header');
@@ -49,5 +49,13 @@ The second call will return an iterable object with all the items with a `div` H
 
 {% hint style="success" %}
 This is the easier and most modern way of selecting elements.
+{% endhint %}
+
+{% hint style="info" %}
+`querySelector` and `querySelectorAll` methods are also available on every element in order to search for child elements.
+
+```javascript
+const firstNameInput = form.querySelector('input[name="firstName"]');
+```
 {% endhint %}
 
