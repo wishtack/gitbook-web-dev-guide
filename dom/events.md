@@ -20,3 +20,27 @@ An event listener is a JavaScript function that **will be called whenever the ev
 
 In most cases, the listener function will take as first argument, **the event object** with different properties and data depending on the event type and the event itself.
 
+### Listening to a click
+
+```javascript
+const button = document.querySelector('button');
+
+let clickCount = 0;
+
+/* Increment the counter on every click. */
+button.addEventListener('click', () => clickCount++);
+```
+
+### Listening to keyboard
+
+```javascript
+document.addEventListener('keydown', event => {
+    if (event.ctrlKey === true
+        && event.key === 'x'
+        /* This will show a confirmation dialog and return true if user confirms. */
+        && confirm('Do you really want to remove the selected blog post?')) {
+        removeSelectedItem();
+    }
+});
+```
+
