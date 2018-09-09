@@ -14,5 +14,9 @@ These event types can be of any kind:
 * Network status,
 * ...
 
+These events can be intercepted by adding an **event listener** to the corresponding event type.
 
+An event listener is a JavaScript function that **will be called whenever the event is triggered**.
+
+In most cases, the listener function will take as first argument, **the event object** with different properties and data depending on the event type and the event itself.
 
