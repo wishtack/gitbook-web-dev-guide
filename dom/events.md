@@ -64,5 +64,27 @@ Some functions like `watchPosition` will prompt the user for his consent before 
 
 ## Removing Event Listeners
 
-TODO
+In order to avoid **side effects**, **dead code** and **memory leaks** it is important to think about clearing your event registrations by removing the listeners.
+
+This can be done differently depending on the event type.
+
+#### `removeEventListener`
+
+```javascript
+const listener = () => clickCount++;
+
+button.addEventListener('click', listener);
+
+button.removeEventListener('click', listener);
+```
+
+#### `clear...`
+
+```javascript
+const watchId = navigator.geolocation.watchPosition(...);
+navigator.geolocation.clearWatch(watchId);
+
+const interval = setInterval(() => console.log(clickCount), 1000);
+clearInterval(interval);
+```
 
