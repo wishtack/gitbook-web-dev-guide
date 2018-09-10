@@ -88,3 +88,9 @@ const interval = setInterval(() => console.log(clickCount), 1000);
 clearInterval(interval);
 ```
 
+## Events bubbling & capturing
+
+[http://javascript.info/bubbling-and-capturing](http://javascript.info/bubbling-and-capturing)
+
+{% embed data="{\"url\":\"http://javascript.info/bubbling-and-capturing\",\"type\":\"link\",\"title\":\"Bubbling and capturing\",\"icon\":{\"type\":\"icon\",\"url\":\"http://javascript.info/img/favicon/apple-touch-icon-precomposed.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://javascript.info/img/site\_preview\_en\_1200x630.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
+
