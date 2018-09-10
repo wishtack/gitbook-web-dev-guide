@@ -1,4 +1,4 @@
-# CSS Selectors
+# Selectors
 
 ## CSS selector examples
 
