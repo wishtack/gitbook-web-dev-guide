@@ -49,7 +49,7 @@ const book = {
     title: 'eXtreme Programming explained'
 };
 
-fetch('https://api.mylibrary.io', {
+fetch('https://api.mylibrary.io/books', {
     method: 'GET',
         headers: {
             'Content-Type': 'application/json; charset=utf-8'
@@ -57,6 +57,14 @@ fetch('https://api.mylibrary.io', {
         body: JSON.stringify(book)
 });
 ```
+
+{% hint style="warning" %}
+In order to avoid security issues like URL forgery, it is recommended to encode the dynamic parts of the URL when constructing it using the `encodeURIComponent` function.
+
+```javascript
+const uri = `https://api.mylibrary.io/books/${encodeURIComponent(bookId)}`;
+```
+{% endhint %}
 
 
 
