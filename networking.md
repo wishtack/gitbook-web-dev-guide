@@ -31,7 +31,23 @@ xmlHttpRequest.send();
 ```
 {% endhint %}
 
+## `fetch` Web API
 
+The `fetch()` function returns a `Promise<Response>` _\(a promise that resolves to a `Response` object\)_.
 
+The `Response.json()` method returns a `Promise` that resolves the object produced by parsing the JSON content of the body.
 
+```javascript
+fetch('https://www.googleapis.com/books/v1/volumes?q=extreme%20programming')
+    .then(response => response.json())
+    .then(data => console.log(data));
+```
+
+Or using `async/await`:
+
+```javascript
+const response = await fetch('https://www.googleapis.com/books/v1/volumes?q=extreme%20programming');
+const data = await response.json();
+console.log(data);
+```
 
