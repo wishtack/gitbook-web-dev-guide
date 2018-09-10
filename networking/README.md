@@ -12,42 +12,8 @@ Most of these sources will be [ReSTful APIs](https://blog.wishtack.com/rest-apis
 
 {% embed data="{\"url\":\"https://graphql.org\",\"type\":\"link\",\"title\":\"GraphQL: A query language for APIs.\",\"description\":\"GraphQL provides a complete description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://graphql.org/img/favicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://graphql.org/img/og\_image.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
 
-{% hint style="warning" %}
-Luckily, thanks to the `fetch` web API and without any external library, we will not need to use the old fashioned `XMLHttpRequest` object.
+  
 
-```javascript
-const xmlHttpRequest = new XMLHttpRequest();
 
-xmlHttpRequest.onreadystatechange = () => {
-    if (xmlHttpRequest.readyState === 4 /* request is complete */
-        && xmlHttpRequest.status === 200) {
-        document.querySelector('.wt-wish-list').innerHTML = xmlHttpRequest.responseText;
-    }
-};
 
-xmlHttpRequest.open('GET', '/users/123456/wishes/', true /* async */);
-
-xmlHttpRequest.send();
-```
-{% endhint %}
-
-## `fetch` Web API
-
-The `fetch()` function returns a `Promise<Response>` _\(a promise that resolves to a `Response` object\)_.
-
-The `Response.json()` method returns a `Promise` that resolves the object produced by parsing the JSON content of the body.
-
-```javascript
-fetch('https://www.googleapis.com/books/v1/volumes?q=extreme%20programming')
-    .then(response => response.json())
-    .then(data => console.log(data));
-```
-
-Or using `async/await`:
-
-```javascript
-const response = await fetch('https://www.googleapis.com/books/v1/volumes?q=extreme%20programming');
-const data = await response.json();
-console.log(data);
-```
 
