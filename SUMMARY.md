@@ -38,6 +38,7 @@
   * [Events](dom/events.md)
 * [Forms](forms/README.md)
   * [The &lt;form&gt; tag](forms/the-less-than-form-greater-than-tag.md)
+  * [Form validation](forms/form-validation.md)
 * [Networking](networking/README.md)
   * [Fetch Web API](networking/fetch-web-api.md)
 * [CSS](css/README.md)
