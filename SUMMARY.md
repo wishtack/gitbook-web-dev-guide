@@ -36,6 +36,7 @@
   * [Element Selection](dom/element-selection.md)
   * [Element Modification](dom/element-modification.md)
   * [Events](dom/events.md)
+* [Forms](forms.md)
 * [Networking](networking/README.md)
   * [Fetch Web API](networking/fetch-web-api.md)
 * [CSS](css/README.md)
