@@ -1,14 +1,6 @@
-# Forms
+# The &lt;form&gt; tag
 
-## HTML5 Forms Specification
-
-Luckily, HTML5 has a quite interesting forms specification.
-
-[https://www.w3.org/TR/html5/sec-forms.html\#sec-forms](https://www.w3.org/TR/html5/sec-forms.html#sec-forms)
-
-{% embed data="{\"url\":\"https://www.w3.org/TR/html5/sec-forms.html\#sec-forms\",\"type\":\"link\",\"title\":\"HTML 5.2: 4.10. Forms\",\"icon\":{\"type\":\"icon\",\"url\":\"https://www.w3.org/favicon.ico\",\"aspectRatio\":0}}" %}
-
-## The `form` tag
+## `<form>` tag attributes
 
 The first step when implementing an HTML form is to add a `form` tag.
 
@@ -24,7 +16,7 @@ The form tag has three main attributes:
 * **enctype**: that specifies the encoding to use for sending data _\(`application/x-www-form-urlencoded`, `multipart/form-data` and `text/plain`\)_. 
 * **method**: that controls the HTTP method that will be used to send data to server.
 
-### Example
+## Example
 
 ```markup
 <form
@@ -34,7 +26,7 @@ The form tag has three main attributes:
 </form>
 ```
 
-### Intercepting `submit` event
+## Intercepting `submit` event
 
 In most cases in a JavaScript application, the content shouldn't be sent directly over the network to the backend but it **should be intercepted by the JavaScript** on submission.
 
