@@ -47,6 +47,7 @@
   * [Transforms](css/transforms.md)
   * [Transitions](css/transitions.md)
   * [Animations](css/animations.md)
+  * [Web Animations API](css/web-animations-api.md)
   * [Sass](css/sass.md)
 * [Responsive Web Design](responsive-web-design.md)
 * [Web APIs](web-apis.md)
