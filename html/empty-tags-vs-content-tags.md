@@ -37,5 +37,7 @@ The following examples are equivalent:
 
 Closing empty tags might seem cleaner but it is better to leave them open.
 
+{% hint style="warning" %}
 Auto-closing tags might be ignored by some browsers and can cause trouble.
+{% endhint %}
 
