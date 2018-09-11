@@ -1,6 +1,6 @@
 # The Event Loop
 
-The Event Loop Behavior
+## The Event Loop Behavior
 
 What's the execution order of this code?
 
