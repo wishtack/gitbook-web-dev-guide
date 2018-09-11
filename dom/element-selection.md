@@ -1,5 +1,7 @@
 # Element Selection
 
+## Old School
+
 ### Selecting an element by id
 
 ```javascript
@@ -35,6 +37,8 @@ This code will return the first element having the `header` HTML tag.
 ```markup
 <header>This is the header.</header>
 ```
+
+## Modern Way
 
 ### Select using query selector
 
