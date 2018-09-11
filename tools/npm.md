@@ -8,7 +8,7 @@ It is automatically installed with Node.js and is used to handle JavaScript _\(b
 
 NPM allows:
 
-* Dependencies management _\(just like apt, gem, maven, nugger, pip, yum...\)._
+* Dependencies management _\(just like apt, gem, maven, nugget, pip, yum...\)._
 * JavaScript modules creation and publishing.
 * Download and install of dependencies depending on a module's dependencies description.
 * Sharing entry point scripts with developers and machines _\(e.g.: Continuous Integration\)_ like `build`, `debug`, `deploy`, `test` etc...
