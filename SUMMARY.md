@@ -53,8 +53,10 @@
   * [Viewport](responsive-web-design/viewport.md)
   * [Media Queries](responsive-web-design/media-queries.md)
   * [Grid Layout](responsive-web-design/grid-layout.md)
+  * [Flex Layout](responsive-web-design/flex-layout.md)
+  * [Frameworks](responsive-web-design/frameworks.md)
 * [Web APIs](web-apis.md)
 * [Testing](testing.md)
 * [Security](security.md)
-* [Some Links](some-links.md)
+* [More Links](more-links.md)
 
