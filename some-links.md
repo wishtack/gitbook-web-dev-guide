@@ -1,5 +1,11 @@
 # Some Links
 
+## Emmet
+
+[https://emmet.io/](https://emmet.io/)
+
+{% embed data="{\"url\":\"https://emmet.io/\",\"type\":\"link\",\"title\":\"Emmet — the essential toolkit for web-developers\",\"icon\":{\"type\":\"icon\",\"url\":\"https://emmet.io/-/3755353140/favicon.ico\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"http://emmet.io/i/logo-large.png\",\"width\":393,\"height\":393,\"aspectRatio\":1}}" %}
+
 ## Newsletters
 
 [https://javascriptweekly.com/](https://javascriptweekly.com/)
