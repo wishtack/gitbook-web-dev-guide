@@ -52,6 +52,7 @@
 * [Responsive Web Design](responsive-web-design/README.md)
   * [Viewport](responsive-web-design/viewport.md)
   * [Media Queries](responsive-web-design/media-queries.md)
+  * [Grid Layout](responsive-web-design/grid-layout.md)
 * [Web APIs](web-apis.md)
 * [Testing](testing.md)
 * [Security](security.md)
