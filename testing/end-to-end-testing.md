@@ -90,6 +90,12 @@ You can open a tunnel with Browserstack to test locally hosted applications.
 
 Cypress is another JavaScript End to End Testing Framework.
 
+{% hint style="warning" %}
+It doesn't use Selenium so it's not cross-browser.
+{% endhint %}
+
+With Cypress, it is easier to have a Test-Driven Development approach as tests can be re-run automatically on every change without having to respawn a browser.
+
 [https://www.cypress.io/](https://www.cypress.io/)
 
 {% embed data="{\"url\":\"https://www.cypress.io/\",\"type\":\"link\",\"title\":\"JavaScript End to End Testing Framework \| Cypress.io\",\"description\":\"Fast, easy and reliable testing for anything that runs in a browser. Install Cypress in seconds and take the pain out of front-end testing.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://www.cypress.io/img/favicon.ico\",\"width\":16,\"height\":16,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://www.cypress.io/img/cypress-io-logo-social-share.png\",\"width\":1200,\"height\":628,\"aspectRatio\":0.5233333333333333}}" %}
