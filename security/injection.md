@@ -16,3 +16,11 @@ Third-party _\(user, partner etc...\)_ data should not be trusted and never exec
 Never use `eval().`
 {% endhint %}
 
+### Encode URI components
+
+When constructing a URL, dynamic parts should be URI encoded.
+
+```javascript
+const url = `https://api.wishtack.com/users/${encodeURIComponent(userId)}`;
+```
+
