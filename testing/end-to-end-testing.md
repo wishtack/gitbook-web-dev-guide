@@ -102,7 +102,7 @@ Cypress is another JavaScript End to End Testing Framework.
 
 {% embed data="{\"url\":\"https://blog.wishtack.com/2015/05/07/cross-browser-testing-test-automation-with-protractor-and-browserstack/\",\"type\":\"link\",\"title\":\"Cross Browser Testing & Test Automation with Protractor and Browserstack\",\"description\":\"Cross-Browser Testing, what’s that for? Did you just come up with this new brilliant web app idea and you are now wondering how to make sure it works on all devices? or do you already have an…\",\"icon\":{\"type\":\"icon\",\"url\":\"https://wishtackblog.files.wordpress.com/2017/03/cropped-wishtack\_logo\_1024x1024.png?w=192\",\"width\":192,\"height\":192,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://wishtackblog.files.wordpress.com/2017/03/cross-browser-testing.png?w=640\",\"width\":583,\"height\":437,\"aspectRatio\":0.7495711835334476}}" %}
 
-### "Boilerplate" to run your first protractor tests
+### Boilerplate to run your first protractor tests
 
 [https://github.com/wishtack/wt-protractor-boilerplate](https://github.com/wishtack/wt-protractor-boilerplate)
 
