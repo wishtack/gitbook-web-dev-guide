@@ -50,11 +50,11 @@ const book = {
 };
 
 fetch('https://api.mylibrary.io/books', {
-    method: 'GET',
-        headers: {
-            'Content-Type': 'application/json; charset=utf-8'
-        },
-        body: JSON.stringify(book)
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/json; charset=utf-8'
+    },
+    body: JSON.stringify(book)
 });
 ```
 
