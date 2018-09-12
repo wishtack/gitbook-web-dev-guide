@@ -59,6 +59,12 @@
 * [Testing](testing/README.md)
   * [Unit Testing](testing/unit-testing.md)
   * [End to End Testing](testing/end-to-end-testing.md)
-* [Security](security.md)
+* [Security](security/README.md)
+  * [Injection](security/injection.md)
+  * [DOM XSS](security/dom-xss.md)
+  * [Insecure Direct Object Reference](security/insecure-direct-object-reference.md)
+  * [Cross-Site Request Forgery](security/cross-site-request-forgery.md)
+  * [Client vs API Validation](security/client-vs-api-validation.md)
+  * [API Unauthorized Access and Data Leak](security/api-unauthorized-access-and-data-leak.md)
 * [More Links](more-links.md)
 
