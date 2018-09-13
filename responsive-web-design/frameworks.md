@@ -1,4 +1,4 @@
-# Frameworks & Libraries
+# Frameworks
 
 {% hint style="warning" %}
 Do not waste your energy by defining custom CSS classes to handle Responsive Web Design!
