@@ -54,7 +54,7 @@
   * [Media Queries](responsive-web-design/media-queries.md)
   * [Grid Layout](responsive-web-design/grid-layout.md)
   * [Flex Layout](responsive-web-design/flex-layout.md)
-  * [Frameworks](responsive-web-design/frameworks.md)
+  * [Frameworks & Libraries](responsive-web-design/frameworks.md)
 * [Web APIs](web-apis.md)
 * [Testing](testing/README.md)
   * [Unit Testing](testing/unit-testing.md)
